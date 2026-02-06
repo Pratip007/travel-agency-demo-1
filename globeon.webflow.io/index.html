@@ -75,6 +75,65 @@
         #explore-heading {
             max-width: 800px !important;
         }
+
+        /* Hero Slider Backgrounds */
+        .ui-hero-slider-div._01 {
+            background-image: url('https://images.unsplash.com/photo-1544735716-492d5483c7fb?auto=format&fit=crop&w=1920&q=80') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .ui-hero-slider-div._02 {
+            background-image: url('images/hero_rhino.png') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .ui-hero-slider-div._03 {
+            background-image: url('images/hero_teagarden.png') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .ui-hero-slider-div._04 {
+            background-image: url('images/hero_monastery.png') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        @media screen and (max-width: 991px) {
+            .ui-hero-section {
+                min-height: 60vh;
+                /* Increased slightly for mobile impact */
+            }
+
+            .ui-hero-slider-div {
+                min-height: 60vh !important;
+            }
+
+            .ui-hero-section h1 {
+                font-size: 2.8rem !important;
+                line-height: 1.1;
+                margin-bottom: 15px;
+            }
+
+            /* "Uplift" the content by shifting it up and away from the slider dots */
+            .ui-hero-wrapper {
+                transform: translateY(-30px);
+                padding-bottom: 40px;
+            }
+        }
+
+        @media screen and (max-width: 479px) {
+            .ui-hero-section h1 {
+                font-size: 2.2rem !important;
+            }
+
+            .ui-hero-wrapper {
+                transform: translateY(-40px);
+                padding-bottom: 60px;
+            }
+        }
     </style>
     <script type="text/javascript">
         ! function (o, c) {
@@ -420,36 +479,44 @@
         </div>
         <div data-w-id="87d52931-21aa-d724-fe2a-d170afac340e" style="opacity:0" class="ui-about-slider-wrapper-div">
             <div class="ui-about-slider-div">
-                <div class="ui-about-image-div"><img
-                        src="https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525fdac7c1876bea4a51_about-image1.webp"
-                        loading="lazy" sizes="(max-width: 1196px) 100vw, 1196px"
-                        srcset="https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525fdac7c1876bea4a51_about-image1-p-500.webp 500w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525fdac7c1876bea4a51_about-image1-p-800.webp 800w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525fdac7c1876bea4a51_about-image1-p-1080.webp 1080w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525fdac7c1876bea4a51_about-image1.webp 1196w"
-                        alt="Travel image" class="ui-about-image" /></div>
-                <div class="ui-about-image-div ui-border-radius"><img
-                        src="https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525c3f8bb94a2b0aa3b4_about-image2.webp"
-                        loading="lazy" sizes="(max-width: 1196px) 100vw, 1196px"
-                        srcset="https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525c3f8bb94a2b0aa3b4_about-image2-p-500.webp 500w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525c3f8bb94a2b0aa3b4_about-image2-p-800.webp 800w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525c3f8bb94a2b0aa3b4_about-image2-p-1080.webp 1080w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525c3f8bb94a2b0aa3b4_about-image2.webp 1196w"
-                        alt="Travel image" class="ui-about-image" /></div>
-                <div class="ui-about-image-div"><img
-                        src="https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525b44e8b10312c9d96c_about-image3.webp"
-                        loading="lazy" sizes="(max-width: 1196px) 100vw, 1196px"
-                        srcset="https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525b44e8b10312c9d96c_about-image3-p-500.webp 500w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525b44e8b10312c9d96c_about-image3-p-800.webp 800w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525b44e8b10312c9d96c_about-image3-p-1080.webp 1080w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525b44e8b10312c9d96c_about-image3.webp 1196w"
-                        alt="Travel image" class="ui-about-image" /></div>
-                <div class="ui-about-image-div ui-border-radius"><img
-                        src="https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525cfa91f686c418d6cd_about-image4.webp"
-                        loading="lazy" sizes="(max-width: 1196px) 100vw, 1196px"
-                        srcset="https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525cfa91f686c418d6cd_about-image4-p-500.webp 500w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525cfa91f686c418d6cd_about-image4-p-800.webp 800w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525cfa91f686c418d6cd_about-image4-p-1080.webp 1080w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525cfa91f686c418d6cd_about-image4.webp 1196w"
-                        alt="Travel image" class="ui-about-image" /></div>
-                <div class="ui-about-image-div"><img
-                        src="https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/69185261c4bc048102233881_about-image5.webp"
-                        loading="lazy" sizes="(max-width: 1196px) 100vw, 1196px"
-                        srcset="https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/69185261c4bc048102233881_about-image5-p-500.webp 500w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/69185261c4bc048102233881_about-image5-p-800.webp 800w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/69185261c4bc048102233881_about-image5-p-1080.webp 1080w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/69185261c4bc048102233881_about-image5.webp 1196w"
-                        alt="Travel image" class="ui-about-image" /></div>
-                <div class="ui-about-image-div ui-border-radius"><img
-                        src="https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525b5a811a5f4af3e3e6_about-image6.webp"
-                        loading="lazy" sizes="(max-width: 1196px) 100vw, 1196px"
-                        srcset="https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525b5a811a5f4af3e3e6_about-image6-p-500.webp 500w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525b5a811a5f4af3e3e6_about-image6-p-800.webp 800w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525b5a811a5f4af3e3e6_about-image6-p-1080.webp 1080w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525b5a811a5f4af3e3e6_about-image6.webp 1196w"
-                        alt="Travel image" class="ui-about-image" /></div>
+                <div class="ui-about-image-div"><img src="images/about_image1.png" loading="lazy"
+                        style="width: 100%; height: 100%; object-fit: cover; aspect-ratio: 1/1;" alt="Toy Train"
+                        class="ui-about-image" /></div>
+                <div class="ui-about-image-div ui-border-radius"><img src="images/about_image2.png" loading="lazy"
+                        style="width: 100%; height: 100%; object-fit: cover; aspect-ratio: 16/10;" alt="Rafting"
+                        class="ui-about-image" /></div>
+                <div class="ui-about-image-div"><img src="images/about_image3.png" loading="lazy"
+                        style="width: 100%; height: 100%; object-fit: cover; aspect-ratio: 1/1;" alt="Culture"
+                        class="ui-about-image" /></div>
+                <div class="ui-about-image-div ui-border-radius"><img src="images/about_image4.png" loading="lazy"
+                        style="width: 100%; height: 100%; object-fit: cover; aspect-ratio: 1/1;" alt="Wildlife"
+                        class="ui-about-image" /></div>
+                <div class="ui-about-image-div"><img src="images/about_image5.png" loading="lazy"
+                        style="width: 100%; height: 100%; object-fit: cover; aspect-ratio: 1/1;" alt="Food"
+                        class="ui-about-image" /></div>
+                <div class="ui-about-image-div ui-border-radius"><img src="images/about_image6.png" loading="lazy"
+                        style="width: 100%; height: 100%; object-fit: cover; aspect-ratio: 3/4;" alt="Homestay"
+                        class="ui-about-image" /></div>
+            </div>
+            <div class="ui-about-slider-div">
+                <div class="ui-about-image-div"><img src="images/about_image1.png" loading="lazy"
+                        style="width: 100%; height: 100%; object-fit: cover; aspect-ratio: 1/1;" alt="Toy Train"
+                        class="ui-about-image" /></div>
+                <div class="ui-about-image-div ui-border-radius"><img src="images/about_image2.png" loading="lazy"
+                        style="width: 100%; height: 100%; object-fit: cover; aspect-ratio: 16/10;" alt="Rafting"
+                        class="ui-about-image" /></div>
+                <div class="ui-about-image-div"><img src="images/about_image3.png" loading="lazy"
+                        style="width: 100%; height: 100%; object-fit: cover; aspect-ratio: 1/1;" alt="Culture"
+                        class="ui-about-image" /></div>
+                <div class="ui-about-image-div ui-border-radius"><img src="images/about_image4.png" loading="lazy"
+                        style="width: 100%; height: 100%; object-fit: cover; aspect-ratio: 1/1;" alt="Wildlife"
+                        class="ui-about-image" /></div>
+                <div class="ui-about-image-div"><img src="images/about_image5.png" loading="lazy"
+                        style="width: 100%; height: 100%; object-fit: cover; aspect-ratio: 1/1;" alt="Food"
+                        class="ui-about-image" /></div>
+                <div class="ui-about-image-div ui-border-radius"><img src="images/about_image6.png" loading="lazy"
+                        style="width: 100%; height: 100%; object-fit: cover; aspect-ratio: 3/4;" alt="Homestay"
+                        class="ui-about-image" /></div>
             </div>
             <div class="ui-about-slider-div">
                 <div class="ui-about-image-div"><img
@@ -476,12 +543,14 @@
                         src="https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/69185261c4bc048102233881_about-image5.webp"
                         loading="lazy" sizes="(max-width: 1196px) 100vw, 1196px"
                         srcset="https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/69185261c4bc048102233881_about-image5-p-500.webp 500w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/69185261c4bc048102233881_about-image5-p-800.webp 800w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/69185261c4bc048102233881_about-image5-p-1080.webp 1080w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/69185261c4bc048102233881_about-image5.webp 1196w"
-                        alt="Travel image" class="ui-about-image" /></div>
+                        style="width: 100%; height: 100%; object-fit: cover; aspect-ratio: 1/1;" alt="Travel image"
+                        class="ui-about-image" /></div>
                 <div class="ui-about-image-div ui-border-radius"><img
                         src="https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525b5a811a5f4af3e3e6_about-image6.webp"
                         loading="lazy" sizes="(max-width: 1196px) 100vw, 1196px"
                         srcset="https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525b5a811a5f4af3e3e6_about-image6-p-500.webp 500w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525b5a811a5f4af3e3e6_about-image6-p-800.webp 800w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525b5a811a5f4af3e3e6_about-image6-p-1080.webp 1080w, https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525b5a811a5f4af3e3e6_about-image6.webp 1196w"
-                        alt="Travel image" class="ui-about-image" /></div>
+                        style="width: 100%; height: 100%; object-fit: cover; aspect-ratio: 3/4;" alt="Travel image"
+                        class="ui-about-image" /></div>
             </div>
         </div>
         <div class="w-layout-blockcontainer ui-container w-container">
@@ -513,10 +582,7 @@
             <div class="w-layout-grid ui-package-grid">
                 <div data-w-id="6d0f42df-02c4-0536-5fcd-f0fd40dfae8a" style="opacity:0" class="ui-package-div">
                     <div class="ui-package-card">
-                        <div class="ui-package-image-wrapper"><img
-                                src="https://images.unsplash.com/photo-1563789031959-4c02bcb41319?w=1600&h=1000&fit=crop"
-                                loading="lazy"
-                                sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 939.9750366210938px"
+                        <div class="ui-package-image-wrapper"><img src="images/darjeeling_new.png" loading="lazy"
                                 alt="Darjeeling Kalimpong Tour Package - Tea Gardens and Monasteries"
                                 class="ui-package-image" /></div>
                         <div class="ui-package-review-div">
@@ -559,7 +625,8 @@
                         </div>
                         <div class="ui-package-button-div">
                             <div class="ui-common-button-div">
-                                <a aria-label="Button" href="#contact-us" class="ui-inquiry-button w-inline-block">
+                                <a aria-label="Button" href="package-darjeeling.html"
+                                    class="ui-inquiry-button w-inline-block">
                                     <div class="ui-inquiry-button-icon w-embed"><svg viewBox="0 0 22 24"
                                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -574,10 +641,7 @@
                 </div>
                 <div data-w-id="7873b8e7-9117-084a-8c65-aa219bbe975d" style="opacity:0" class="ui-package-div">
                     <div class="ui-package-card">
-                        <div class="ui-package-image-wrapper"><img
-                                src="https://images.unsplash.com/photo-1549366021-9f761d450615?w=1600&h=1000&fit=crop"
-                                loading="lazy"
-                                sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 939.9750366210938px"
+                        <div class="ui-package-image-wrapper"><img src="images/dooars_new.png" loading="lazy"
                                 alt="Dooars Wildlife Safari - Gorumara and Jaldapara National Parks"
                                 class="ui-package-image" /></div>
                         <div class="ui-package-review-div">
@@ -620,7 +684,8 @@
                         </div>
                         <div class="ui-package-button-div">
                             <div class="ui-common-button-div">
-                                <a aria-label="Button" href="#contact-us" class="ui-inquiry-button w-inline-block">
+                                <a aria-label="Button" href="package-dooars.html"
+                                    class="ui-inquiry-button w-inline-block">
                                     <div class="ui-inquiry-button-icon w-embed"><svg viewBox="0 0 22 24"
                                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -635,10 +700,7 @@
                 </div>
                 <div data-w-id="f4027b6f-d4df-1347-c861-fac003f73576" style="opacity:0" class="ui-package-div">
                     <div class="ui-package-card">
-                        <div class="ui-package-image-wrapper"><img
-                                src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=1600&h=1000&fit=crop"
-                                loading="lazy"
-                                sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 939.9750366210938px"
+                        <div class="ui-package-image-wrapper"><img src="images/north_sikkim_new.png" loading="lazy"
                                 alt="North Sikkim" class="ui-package-image" /></div>
                         <div class="ui-package-review-div">
                             <div class="ui-sub-heading-div ui-left">
@@ -680,7 +742,8 @@
                         </div>
                         <div class="ui-package-button-div">
                             <div class="ui-common-button-div">
-                                <a aria-label="Button" href="#contact-us" class="ui-inquiry-button w-inline-block">
+                                <a aria-label="Button" href="package-north-sikkim.html"
+                                    class="ui-inquiry-button w-inline-block">
                                     <div class="ui-inquiry-button-icon w-embed"><svg viewBox="0 0 22 24"
                                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -695,11 +758,8 @@
                 </div>
                 <div data-w-id="98f9a10b-20bd-4ad4-40b6-c6dd7e3d248e" style="opacity:0" class="ui-package-div">
                     <div class="ui-package-card">
-                        <div class="ui-package-image-wrapper"><img
-                                src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&h=1000&fit=crop"
-                                loading="lazy"
-                                sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 939.9750366210938px"
-                                alt="Himalayan Paradise" class="ui-package-image" /></div>
+                        <div class="ui-package-image-wrapper"><img src="images/bhutan.png" loading="lazy"
+                                alt="Magical Bhutan" class="ui-package-image" /></div>
                         <div class="ui-package-review-div">
                             <div class="ui-sub-heading-div ui-left">
                                 <div class="ui-review-icon w-embed"><svg width="83" height="14" viewBox="0 0 83 14"
@@ -720,27 +780,28 @@
                                             d="M75.0348 0L77.3086 4.61253L82.3921 5.34339L78.7054 8.93271L79.5824 14L75.0348 11.6125L70.471 14L71.348 8.93271L67.6613 5.34339L72.7448 4.61253L75.0348 0Z"
                                             fill="#1E1E1E" fill-opacity="0.4" />
                                     </svg></div>
-                                <div class="ui-paragraph ui-line-height">4.8 rate (3,200 reviews)</div>
+                                <div class="ui-paragraph ui-line-height">5.0 rate (900 reviews)</div>
                             </div>
                         </div>
                         <div class="ui-package-info-div">
-                            <div class="ui-small-paragraph ui-eerie-black-700-color-text">Kanchenjunga Views | MG Marg |
-                                Pelling Skywalk | Cable Car</div>
+                            <div class="ui-small-paragraph ui-eerie-black-700-color-text">Tiger's Nest | Thimphu |
+                                Punakha | Culture</div>
                         </div>
                         <div class="ui-package-detail-div">
                             <div class="ui-package-heading-div">
                                 <div class="ui-small-paragraph ui-eerie-black-700-color-text">6 days &amp; 5 nights
                                 </div>
-                                <div class="ui-h5-heading">Himalayan Paradise</div>
+                                <div class="ui-h5-heading">Magical Bhutan</div>
                             </div>
                             <div class="ui-package-price-div">
-                                <div class="ui-h6-heading">INR 18,500</div>
+                                <div class="ui-h6-heading">INR 35,999</div>
                                 <div class="ui-small-paragraph ui-eerie-black-700-color-text">/Per Person</div>
                             </div>
                         </div>
                         <div class="ui-package-button-div">
                             <div class="ui-common-button-div">
-                                <a aria-label="Button" href="#contact-us" class="ui-inquiry-button w-inline-block">
+                                <a aria-label="Button" href="package-bhutan.html"
+                                    class="ui-inquiry-button w-inline-block">
                                     <div class="ui-inquiry-button-icon w-embed"><svg viewBox="0 0 22 24"
                                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -755,11 +816,8 @@
                 </div>
                 <div data-w-id="10cfcb15-1b6f-1790-bf3e-8f1738a216fe" style="opacity:0" class="ui-package-div">
                     <div class="ui-package-card">
-                        <div class="ui-package-image-wrapper"><img
-                                src="https://images.unsplash.com/photo-1563789031959-4c02bcb41319?w=1600&h=1000&fit=crop"
-                                loading="lazy"
-                                sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 939.9750366210938px"
-                                alt="Tea Garden Retreat" class="ui-package-image" /></div>
+                        <div class="ui-package-image-wrapper"><img src="images/arunachal.png" loading="lazy"
+                                alt="Mystic Arunachal" class="ui-package-image" /></div>
                         <div class="ui-package-review-div">
                             <div class="ui-sub-heading-div ui-left">
                                 <div class="ui-review-icon w-embed"><svg width="83" height="14" viewBox="0 0 83 14"
@@ -780,27 +838,28 @@
                                             d="M75.0348 0L77.3086 4.61253L82.3921 5.34339L78.7054 8.93271L79.5824 14L75.0348 11.6125L70.471 14L71.348 8.93271L67.6613 5.34339L72.7448 4.61253L75.0348 0Z"
                                             fill="#1E1E1E" fill-opacity="0.4" />
                                     </svg></div>
-                                <div class="ui-paragraph ui-line-height">4.7 rate (2,800 reviews)</div>
+                                <div class="ui-paragraph ui-line-height">4.9 rate (850 reviews)</div>
                             </div>
                         </div>
                         <div class="ui-package-info-div">
-                            <div class="ui-small-paragraph ui-eerie-black-700-color-text">Tea Factory Tours | Mirik Lake
-                                | Orange Orchards | Heritage Stays</div>
+                            <div class="ui-small-paragraph ui-eerie-black-700-color-text">Tawang Monastery | Sela Pass |
+                                Bumla Border</div>
                         </div>
                         <div class="ui-package-detail-div">
                             <div class="ui-package-heading-div">
-                                <div class="ui-small-paragraph ui-eerie-black-700-color-text">5 days &amp; 4 nights
+                                <div class="ui-small-paragraph ui-eerie-black-700-color-text">7 days & 6 nights
                                 </div>
-                                <div class="ui-h5-heading">Tea Garden Retreat</div>
+                                <div class="ui-h5-heading">Mystic Arunachal</div>
                             </div>
                             <div class="ui-package-price-div">
-                                <div class="ui-h6-heading">INR 14,500</div>
+                                <div class="ui-h6-heading">INR 29,999</div>
                                 <div class="ui-small-paragraph ui-eerie-black-700-color-text">/Per Person</div>
                             </div>
                         </div>
                         <div class="ui-package-button-div">
                             <div class="ui-common-button-div">
-                                <a aria-label="Button" href="#contact-us" class="ui-inquiry-button w-inline-block">
+                                <a aria-label="Button" href="package-arunachal.html"
+                                    class="ui-inquiry-button w-inline-block">
                                     <div class="ui-inquiry-button-icon w-embed"><svg viewBox="0 0 22 24"
                                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -815,11 +874,8 @@
                 </div>
                 <div data-w-id="a5776475-27fd-8b9b-e9e1-308aba528e64" style="opacity:0" class="ui-package-div">
                     <div class="ui-package-card">
-                        <div class="ui-package-image-wrapper"><img
-                                src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=1600&h=1000&fit=crop"
-                                loading="lazy"
-                                sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 939.9750366210938px"
-                                alt="Complete North Bengal" class="ui-package-image" /></div>
+                        <div class="ui-package-image-wrapper"><img src="images/nepal.png" loading="lazy"
+                                alt="Magical Nepal Tour" class="ui-package-image" /></div>
                         <div class="ui-package-review-div">
                             <div class="ui-sub-heading-div ui-left">
                                 <div class="ui-review-icon w-embed"><svg width="83" height="14" viewBox="0 0 83 14"
@@ -840,27 +896,28 @@
                                             d="M75.0348 0L77.3086 4.61253L82.3921 5.34339L78.7054 8.93271L79.5824 14L75.0348 11.6125L70.471 14L71.348 8.93271L67.6613 5.34339L72.7448 4.61253L75.0348 0Z"
                                             fill="#1E1E1E" fill-opacity="0.4" />
                                     </svg></div>
-                                <div class="ui-paragraph ui-line-height">4.6 rate (2,100 reviews)</div>
+                                <div class="ui-paragraph ui-line-height">5.0 rate (2,300 reviews)</div>
                             </div>
                         </div>
                         <div class="ui-package-info-div">
-                            <div class="ui-small-paragraph ui-eerie-black-700-color-text">All Hill Stations | Complete
-                                Tour | Best of North Bengal</div>
+                            <div class="ui-small-paragraph ui-eerie-black-700-color-text">Kathmandu | Pokhara |
+                                Himalayas | Culture</div>
                         </div>
                         <div class="ui-package-detail-div">
                             <div class="ui-package-heading-div">
-                                <div class="ui-small-paragraph ui-eerie-black-700-color-text">7 days &amp; 6 nights
+                                <div class="ui-small-paragraph ui-eerie-black-700-color-text">6 days & 5 nights
                                 </div>
-                                <div class="ui-h5-heading">Complete North Bengal</div>
+                                <div class="ui-h5-heading">Magical Nepal Tour</div>
                             </div>
                             <div class="ui-package-price-div">
-                                <div class="ui-h6-heading">INR 21,500</div>
+                                <div class="ui-h6-heading">INR 28,500</div>
                                 <div class="ui-small-paragraph ui-eerie-black-700-color-text">/Per Person</div>
                             </div>
                         </div>
                         <div class="ui-package-button-div">
                             <div class="ui-common-button-div">
-                                <a aria-label="Button" href="#contact-us" class="ui-inquiry-button w-inline-block">
+                                <a aria-label="Button" href="package-nepal.html"
+                                    class="ui-inquiry-button w-inline-block">
                                     <div class="ui-inquiry-button-icon w-embed"><svg viewBox="0 0 22 24"
                                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -873,6 +930,19 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="ui-common-button-div ui-margin-top"
+                style="display: flex; justify-content: center; margin-top: 40px;">
+                <a href="packages.html" class="ui-button-link-div w-inline-block">
+                    <div class="ui-button-icon-box">
+                        <img src="https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525a8b51b9bdb72b7344_button-arrow.svg"
+                            loading="lazy" alt="" class="ui-button-icon" />
+                    </div>
+                    <div class="ui-button-div">
+                        <div class="ui-button-text">Show more packages</div>
+                        <div class="ui-button-text">Show more packages</div>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -1543,7 +1613,7 @@
                                 <div class="ui-small-paragraph ui-eerie-black-700-color-text">18 Tour Packages</div>
                                 <div class="ui-h4-heading">Darjeeling</div>
                             </div>
-                            <a href="#contact-us" class="ui-destination-link-block w-inline-block">
+                            <a href="packages.html" class="ui-destination-link-block w-inline-block">
                                 <div class="ui-destination-link-icon w-embed"><svg width="8" height="14"
                                         viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -1566,7 +1636,7 @@
                                 <div class="ui-small-paragraph ui-eerie-black-700-color-text">12 Tour Packages</div>
                                 <div class="ui-h4-heading">Kalimpong</div>
                             </div>
-                            <a href="#contact-us" class="ui-destination-link-block w-inline-block">
+                            <a href="packages.html" class="ui-destination-link-block w-inline-block">
                                 <div class="ui-destination-link-icon w-embed"><svg width="8" height="14"
                                         viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -1589,7 +1659,7 @@
                                 <div class="ui-small-paragraph ui-eerie-black-700-color-text">15 Tour Packages</div>
                                 <div class="ui-h4-heading">Dooars</div>
                             </div>
-                            <a href="#contact-us" class="ui-destination-link-block w-inline-block">
+                            <a href="packages.html" class="ui-destination-link-block w-inline-block">
                                 <div class="ui-destination-link-icon w-embed"><svg width="8" height="14"
                                         viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -1612,7 +1682,7 @@
                                 <div class="ui-small-paragraph ui-eerie-black-700-color-text">20 Tour Packages</div>
                                 <div class="ui-h4-heading">Gangtok (Sikkim)</div>
                             </div>
-                            <a href="#contact-us" class="ui-destination-link-block w-inline-block">
+                            <a href="packages.html" class="ui-destination-link-block w-inline-block">
                                 <div class="ui-destination-link-icon w-embed"><svg width="8" height="14"
                                         viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -1635,7 +1705,7 @@
                                 <div class="ui-small-paragraph ui-eerie-black-700-color-text">10 Tour Packages</div>
                                 <div class="ui-h4-heading">Mirik</div>
                             </div>
-                            <a href="#contact-us" class="ui-destination-link-block w-inline-block">
+                            <a href="packages.html" class="ui-destination-link-block w-inline-block">
                                 <div class="ui-destination-link-icon w-embed"><svg width="8" height="14"
                                         viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -1658,7 +1728,7 @@
                                 <div class="ui-small-paragraph ui-eerie-black-700-color-text">14 Tour Packages</div>
                                 <div class="ui-h4-heading">Siliguri</div>
                             </div>
-                            <a href="#contact-us" class="ui-destination-link-block w-inline-block">
+                            <a href="packages.html" class="ui-destination-link-block w-inline-block">
                                 <div class="ui-destination-link-icon w-embed"><svg width="8" height="14"
                                         viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -1739,60 +1809,131 @@
                     tea tourism, wildlife safaris, or cultural exploration.</p>
             </div>
             <div data-w-id="246e16d2-1254-d447-fea7-6a742737ec35" style="opacity:0" class="ui-contact-form-wrapper">
-                <div class="ui-contact-form-block w-form">
-                    <form id="wf-form-Contact-Form" name="wf-form-Contact-Form" data-name="Contact Form" method="get"
-                        class="ui-contact-form" data-wf-page-id="690a4d8aaeb6104a7e587dea"
-                        data-wf-element-id="195f6f31-c5b9-febc-fa88-2f1b20812af5">
-                        <div class="w-layout-grid ui-contact-grid">
-                            <div class="ui-contact-div"><label for="name" class="ui-paragraph">Full name*</label><input
-                                    class="ui-input w-input" maxlength="256" name="name" data-name="Name"
-                                    placeholder="John Doe" type="text" id="name" required="" /></div>
-                            <div class="ui-contact-div"><label for="email" class="ui-paragraph">Email
-                                    address*</label><input class="ui-input w-input" maxlength="256" name="email"
-                                    data-name="Email" placeholder="you@domain.com" type="email" id="email"
-                                    required="" /></div>
-                            <div class="ui-contact-div"><label for="Number" class="ui-paragraph">Mobile
-                                    number*</label><input class="ui-input w-input" maxlength="256" name="Number"
-                                    data-name="Number" placeholder="+91 98XXXXXXXX" type="tel" id="Number"
-                                    required="" /></div>
-                            <div class="ui-contact-div"><label for="Country-of-residence" class="ui-paragraph">Country
-                                    of residence*</label><select id="Country-of-residence" name="Country-of-residence"
-                                    data-name="Country of residence" class="ui-input ui-select w-select">
-                                    <option value="-">Select Country...</option>
-                                    <option value="India">India</option>
-                                    <option value="Canada">Canada</option>
-                                    <option value="United Kingdom">United Kingdom</option>
-                                </select></div>
-                            <div class="ui-contact-div"><label for="Preferred-travel-dates"
-                                    class="ui-paragraph">Preferred travel dates*</label><input class="ui-input w-input"
-                                    maxlength="256" name="Preferred-travel-dates" data-name="Preferred travel dates"
-                                    placeholder="e.g. 10 Oct 2025 â€“ 17 Oct 2025" type="text"
-                                    id="Preferred-travel-dates" required="" /></div>
-                            <div class="ui-contact-div"><label for="Budget" class="ui-paragraph">Budget (per
-                                    person)*</label><input class="ui-input w-input" maxlength="256" name="Budget"
-                                    data-name="Budget" placeholder="e.g. $5,000 â€“ $10,000" type="text" id="Budget"
-                                    required="" /></div>
-                            <div id="w-node-_8c2fdef9-c933-0eac-6115-d8446dd30872-7e587dea" class="ui-contact-div">
-                                <label for="Message" class="ui-paragraph">Message*</label><textarea id="Message"
-                                    name="Message" maxlength="5000" data-name="Message"
-                                    placeholder="Tell us your destination, must-see places, special requests..."
-                                    required="" class="ui-input ui-text-area-field w-input"></textarea>
-                            </div>
-                        </div>
-                        <p class="ui-small-paragraph ui-contact-paragraph">We respect your privacy. Your details are
-                            used only to plan your trip and will not be shared. By submitting, you agree to receive
-                            emails/calls about your booking.</p>
-                        <div class="ui-common-button-div"><input type="submit" data-wait="Please wait..."
-                                class="ui-contact-button w-button" value="Request a Quote" /></div>
-                    </form>
-                    <div class="ui-success-message w-form-done">
-                        <div class="ui-paragraph ui-white-text">Thank you! Your submission has been received!</div>
-                    </div>
-                    <div class="w-form-fail">
-                        <div>Oops! Something went wrong while submitting the form.</div>
-                    </div>
+                <style>
+                    .ui-social-links-row {
+                        display: flex;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        gap: 24px;
+                        margin-top: 40px;
+                        margin-bottom: 20px;
+                    }
+
+                    .ui-social-link-item {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 50%;
+                        background-color: #ffffff;
+                        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+                        transition: all 0.3s ease;
+                        border: 1px solid rgba(8, 58, 122, 0.1);
+                        text-decoration: none;
+                        position: relative;
+                        overflow: hidden;
+                    }
+
+                    .ui-social-link-item:hover {
+                        transform: translateY(-5px);
+                        box-shadow: 0 15px 35px rgba(8, 58, 122, 0.2);
+                        border-color: transparent;
+                    }
+
+                    .ui-social-link-icon-svg {
+                        width: 32px;
+                        height: 32px;
+                        fill: #1E1E1E;
+                        /* Default dark color */
+                        transition: fill 0.3s ease;
+                        z-index: 2;
+                    }
+
+                    /* Brand Colors on Hover */
+                    .ui-social-link-item.facebook:hover .ui-social-link-icon-svg {
+                        fill: #1877F2;
+                    }
+
+                    .ui-social-link-item.whatsapp:hover .ui-social-link-icon-svg {
+                        fill: #25D366;
+                    }
+
+                    .ui-social-link-item.calls:hover .ui-social-link-icon-svg {
+                        fill: #083a7a;
+                    }
+
+                    .ui-social-link-item.mail:hover .ui-social-link-icon-svg {
+                        fill: #EA4335;
+                    }
+
+                    .ui-social-link-item.instagram:hover .ui-social-link-icon-svg {
+                        fill: #E4405F;
+                    }
+
+                    /* Responsive adjustments */
+                    @media (max-width: 479px) {
+                        .ui-social-link-item {
+                            width: 60px;
+                            height: 60px;
+                        }
+
+                        .ui-social-link-icon-svg {
+                            width: 24px;
+                            height: 24px;
+                        }
+
+                        .ui-social-links-row {
+                            gap: 16px;
+                        }
+                    }
+                </style>
+                <div class="ui-social-links-row">
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/" target="_blank" class="ui-social-link-item facebook"
+                        aria-label="Facebook">
+                        <svg class="ui-social-link-icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                        </svg>
+                    </a>
+
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/919832054321" target="_blank" class="ui-social-link-item whatsapp"
+                        aria-label="WhatsApp">
+                        <svg class="ui-social-link-icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.008-.57-.008-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                    </a>
+
+                    <!-- Calls -->
+                    <a href="tel:+919832054321" class="ui-social-link-item calls" aria-label="Call Us">
+                        <svg class="ui-social-link-icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.44-5.15-3.75-6.59-6.59l1.97-1.57c.3-.3.4-.69.24-1.01a11.36 11.36 0 01-.56-3.53A.977.977 0 008 3.37H4.38a.987.987 0 00-.97.97c0 10.3 8.35 18.66 18.66 18.66.53 0 .97-.43.97-.97V16.35c0-.53-.44-.97-.97-.97z" />
+                        </svg>
+                    </a>
+
+                    <!-- Mail -->
+                    <a href="mailto:info@northbengaltours.com" class="ui-social-link-item mail" aria-label="Email Us">
+                        <svg class="ui-social-link-icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                        </svg>
+                    </a>
+
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/" target="_blank" class="ui-social-link-item instagram"
+                        aria-label="Instagram">
+                        <svg class="ui-social-link-icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.069-4.85.069-3.204 0-3.584-.012-4.849-.069-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.069-1.644-.069-4.849 0-3.204.012-3.584.069-4.849.149-3.228 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.073-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                        </svg>
+                    </a>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <section>
@@ -1873,7 +2014,7 @@
                     <div class="ui-footer-detail-div"><a href="/" aria-current="page"
                             class="ui-footer-logo-link-block w-inline-block w--current"><img
                                 src="https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/6918525a11aac7e79a8728e7_logo.svg"
-                                loading="lazy" alt="Globeon Logo" class="ui-footer-logo" /></a>
+                                loading="lazy" alt="North Bengal Tourism Logo" class="ui-footer-logo" /></a>
                         <p class="ui-paragraph">Your trusted partner for authentic North Bengal experiences - from the
                             hills of Darjeeling to the forests of Dooars, creating memories that last a lifetime.</p>
                         <div class="ui-social-media-wrapper">
@@ -1930,12 +2071,12 @@
                             </div>
                         </div>
                         <div class="ui-footer-wrapper-detail-div">
-                            <div class="ui-paragraph ui-eerie-black-700-color-text">Utility</div>
-                            <div class="ui-footer-link-wrapper"><a href="/404"
-                                    class="ui-paragraph ui-footer-text-link">404 Page</a><a href="/templates/styleguide"
-                                    class="ui-paragraph ui-footer-text-link">Style Guide</a><a
-                                    href="/templates/changelog" class="ui-paragraph ui-footer-text-link">Changelog</a>
-                                <a href="/templates/license" class="ui-paragraph ui-footer-text-link">Licenses</a>
+                            <div class="ui-paragraph ui-eerie-black-700-color-text">Legal</div>
+                            <div class="ui-footer-link-wrapper"><a href="#"
+                                    class="ui-paragraph ui-footer-text-link">Privacy Policy</a><a href="#"
+                                    class="ui-paragraph ui-footer-text-link">Terms & Conditions</a><a href="#"
+                                    class="ui-paragraph ui-footer-text-link">Cancellation Policy</a>
+                                <a href="#" class="ui-paragraph ui-footer-text-link">FAQs</a>
                             </div>
                         </div>
                     </div>
@@ -1951,25 +2092,21 @@
                         <div class="ui-footer-wrapper-detail-div">
                             <div class="ui-paragraph ui-eerie-black-700-color-text">Contact No.:</div>
                             <div class="ui-footer-contact-div">
-                                <div class="ui-paragraph">+91 9832-xxxx-xx</div>
+                                <div class="ui-paragraph">+91 98320 54321</div>
                                 <div class="ui-paragraph">info@northbengaltours.com</div>
                             </div>
                             <p class="ui-paragraph ui-footer-time-text"><span
                                     class="ui-eerie-black-700-color-text">Every day, 9am - 7pm IST</span> WhatsApp: +91
-                                9832-xxxx-xx</p>
+                                98320 54321</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div data-w-id="37e7742c-5d4b-80a9-d7aa-affda86f0dd4" class="ui-footer-line"></div>
             <div data-w-id="37e7742c-5d4b-80a9-d7aa-affda86f0dd5" class="ui-footer-wrapper-div">
-                <div class="ui-paragraph">Â©2025 Globeon.</div>
+                <div class="ui-paragraph">© 2025 North Bengal Tourism. All rights reserved.</div>
                 <div class="ui-footer-copyright-div">
-                    <div class="ui-paragraph">Design &amp; Developed by</div><a aria-label="Unity Infoway"
-                        href="https://webflow.com/templates/designers/unity-infoway" target="_blank"
-                        class="ui-copyright-link-block w-inline-block"><img
-                            src="https://cdn.prod.website-files.com/690a4d8aaeb6104a7e587deb/691b665fa608fd86a70d259a_brand-logo.svg"
-                            loading="lazy" alt="Unity Infoway" /></a>
+                    <div class="ui-paragraph">Made with ❤️ in Siliguri</div>
                 </div>
             </div>
         </div>
@@ -2080,6 +2217,240 @@
         if (statsSection) {
             counterObserver.observe(statsSection);
         }
+    </script>
+    <!-- Contact Form Modal -->
+    <div class="ui-modal-wrapper"
+        style="display: none; opacity: 0; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 9999; justify-content: center; align-items: center; transition: opacity 0.3s ease;">
+        <div class="ui-modal-overlay"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7);">
+        </div>
+        <div class="ui-modal-content"
+            style="position: relative; background-color: white; padding: 30px; border-radius: 12px; width: 90%; max-width: 500px; max-height: 90vh; overflow-y: auto; z-index: 10000; box-shadow: 0 10px 40px rgba(0,0,0,0.3);">
+            <div class="ui-modal-close-button"
+                style="position: absolute; top: 15px; right: 15px; cursor: pointer; padding: 5px; z-index: 10;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 6L6 18" stroke="#333" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M6 6L18 18" stroke="#333" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </div>
+
+            <div class="ui-contact-form-block w-form">
+                <h2 class="ui-h3-heading"
+                    style="margin-bottom: 25px; margin-top: 5px; text-align: center; font-size: 22px; font-weight: 600;">
+                    Plan Your Trip</h2>
+
+                <form id="wf-form-Modal-Contact-Form" name="wf-form-Modal-Contact-Form" data-name="Modal Contact Form"
+                    method="get" class="ui-contact-form" style="display: flex; flex-direction: column; gap: 20px;">
+
+                    <style>
+                        .ui-compact-input {
+                            border: none !important;
+                            border-bottom: 1px solid #ddd !important;
+                            background-color: transparent !important;
+                            border-radius: 0 !important;
+                            padding: 8px 0 !important;
+                            margin-bottom: 0 !important;
+                            font-size: 14px !important;
+                            height: auto !important;
+                            box-shadow: none !important;
+                        }
+
+                        .ui-compact-input:focus {
+                            border-bottom-color: #083a7a !important;
+                        }
+
+                        .ui-compact-input::placeholder {
+                            color: #999;
+                        }
+
+                        /* Custom Checkbox Style */
+                        .ui-checkbox-label {
+                            display: flex;
+                            align-items: center;
+                            margin-top: -10px;
+                            cursor: pointer;
+                        }
+
+                        .ui-checkbox-input {
+                            margin-right: 8px;
+                            cursor: pointer;
+                        }
+
+                        .ui-checkbox-text {
+                            font-size: 13px;
+                            color: #666;
+                        }
+                    </style>
+
+                    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                        <input class="ui-input w-input ui-compact-input" maxlength="256" name="name" data-name="Name"
+                            placeholder="Full Name*" type="text" id="modal-name" required=""
+                            style="flex: 1; min-width: 180px;" />
+                        <input class="ui-input w-input ui-compact-input" maxlength="256" name="email" data-name="Email"
+                            placeholder="Email Address" type="email" id="modal-email"
+                            style="flex: 1; min-width: 180px;" />
+                    </div>
+
+                    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                        <input class="ui-input w-input ui-compact-input" maxlength="256" name="Number"
+                            data-name="Number" placeholder="Mobile Number*" type="tel" id="modal-number" required=""
+                            style="flex: 1; min-width: 180px;" />
+                        <input class="ui-input w-input ui-compact-input" maxlength="256" name="Whatsapp"
+                            data-name="Whatsapp" placeholder="WhatsApp Number" type="tel" id="modal-whatsapp"
+                            style="flex: 1; min-width: 180px;" />
+                    </div>
+
+                    <label class="ui-checkbox-label">
+                        <input type="checkbox" id="same-num-check" class="ui-checkbox-input">
+                        <span class="ui-checkbox-text">WhatsApp number is same as Mobile number</span>
+                    </label>
+
+                    <textarea id="modal-message" name="Message" maxlength="5000" data-name="Message"
+                        placeholder="Your preferences..." required=""
+                        class="ui-input ui-text-area-field w-input ui-compact-input"
+                        style="min-height: 40px; resize: none;"></textarea>
+
+                    <input type="submit" data-wait="Thinking..." class="ui-contact-button w-button"
+                        value="Request Quote" style="width: 100%; margin-top: 15px; border-radius: 5px;" />
+                </form>
+
+                <script>
+                    (function () {
+                        const checkbox = document.getElementById('same-num-check');
+                        const mobileInput = document.getElementById('modal-number');
+                        const whatsappInput = document.getElementById('modal-whatsapp');
+
+                        function syncNumbers() {
+                            if (checkbox.checked) {
+                                whatsappInput.value = mobileInput.value;
+                            }
+                        }
+
+                        checkbox.addEventListener('change', function () {
+                            if (this.checked) {
+                                whatsappInput.value = mobileInput.value;
+                                whatsappInput.readOnly = true;
+                                whatsappInput.style.opacity = '0.7';
+                                mobileInput.addEventListener('input', syncNumbers);
+                            } else {
+                                whatsappInput.readOnly = false;
+                                whatsappInput.style.opacity = '1';
+                                mobileInput.removeEventListener('input', syncNumbers);
+                            }
+                        });
+                    })();
+                </script>
+
+                <div class="ui-success-message w-form-done">
+                    <div class="ui-paragraph ui-white-text">Thank you! Received!</div>
+                </div>
+                <div class="w-form-fail">
+                    <div>Oops! Error.</div>
+                </div>
+            </div>
+
+            <!-- Compact Social Links -->
+            <div style="margin-top: 25px; border-top: 1px solid #eee; padding-top: 20px;">
+                <p style="text-align: center; margin-bottom: 15px; font-size: 14px; color: #666;">Or connect with us
+                    directly:</p>
+                <div class="ui-social-links-row" style="margin-top: 0; gap: 15px; margin-bottom: 0;">
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/" target="_blank" class="ui-social-link-item facebook"
+                        aria-label="Facebook" style="width: 40px; height: 40px;">
+                        <svg class="ui-social-link-icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                            style="width: 20px; height: 20px;">
+                            <path
+                                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                        </svg>
+                    </a>
+
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/919832054321" target="_blank" class="ui-social-link-item whatsapp"
+                        aria-label="WhatsApp" style="width: 40px; height: 40px;">
+                        <svg class="ui-social-link-icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                            style="width: 20px; height: 20px;">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.008-.57-.008-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                    </a>
+
+                    <!-- Calls -->
+                    <a href="tel:+919832054321" class="ui-social-link-item calls" aria-label="Call Us"
+                        style="width: 40px; height: 40px;">
+                        <svg class="ui-social-link-icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                            style="width: 20px; height: 20px;">
+                            <path
+                                d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.44-5.15-3.75-6.59-6.59l1.97-1.57c.3-.3.4-.69.24-1.01a11.36 11.36 0 01-.56-3.53A.977.977 0 008 3.37H4.38a.987.987 0 00-.97.97c0 10.3 8.35 18.66 18.66 18.66.53 0 .97-.43.97-.97V16.35c0-.53-.44-.97-.97-.97z" />
+                        </svg>
+                    </a>
+
+                    <!-- Mail -->
+                    <a href="mailto:info@northbengaltours.com" class="ui-social-link-item mail" aria-label="Email Us"
+                        style="width: 40px; height: 40px;">
+                        <svg class="ui-social-link-icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                            style="width: 20px; height: 20px;">
+                            <path
+                                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                        </svg>
+                    </a>
+
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/" target="_blank" class="ui-social-link-item instagram"
+                        aria-label="Instagram" style="width: 40px; height: 40px;">
+                        <svg class="ui-social-link-icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                            style="width: 20px; height: 20px;">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.069-4.85.069-3.204 0-3.584-.012-4.849-.069-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.069-1.644-.069-4.849 0-3.204.012-3.584.069-4.849.149-3.228 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.073-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const modal = document.querySelector('.ui-modal-wrapper');
+            const closeBtn = document.querySelector('.ui-modal-close-button');
+            const overlay = document.querySelector('.ui-modal-overlay');
+
+            // Select all CTA buttons that link to #contact-us
+            const ctaButtons = document.querySelectorAll('a[href="#contact-us"], a[href="index.html#contact-us"]');
+
+            function openModal(e) {
+                e.preventDefault();
+                modal.style.display = 'flex';
+                // Trigger reflow
+                void modal.offsetWidth;
+                modal.style.opacity = '1';
+                document.body.style.overflow = 'hidden'; // Prevent background scrolling
+            }
+
+            function closeModal() {
+                modal.style.opacity = '0';
+                setTimeout(() => {
+                    modal.style.display = 'none';
+                    document.body.style.overflow = '';
+                }, 300);
+            }
+
+            ctaButtons.forEach(btn => {
+                btn.addEventListener('click', openModal);
+            });
+
+            closeBtn.addEventListener('click', closeModal);
+            overlay.addEventListener('click', closeModal);
+
+            // Close on Escape key
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape' && modal.style.display === 'flex') {
+                    closeModal();
+                }
+            });
+        });
     </script>
 </body>
 
