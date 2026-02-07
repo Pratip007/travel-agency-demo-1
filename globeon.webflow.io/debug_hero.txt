@@ -1,0 +1,26 @@
+﻿            background-image: url('https://images.unsplash.com/photo-1544735716-492d5483c7fb?auto=format&fit=crop&w=1920&q=80') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .ui-hero-slider-div._02 {
+            background-image: url('images/hero_rhino.png') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .ui-hero-slider-div._03 {
+            background-image: url('images/hero_teagarden.png') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .ui-hero-slider-div._04 {
+            background-image: url('images/hero_monastery.png') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        @media screen and (max-width: 991px) {
+            .ui-hero-section {
+                min-height: 60vh;
